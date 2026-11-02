@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "usr_9438af30c665f7312d96",
+      "fullName": "Divya Krishnan",
+      "email": "divya.test@smartshield.app",
+      "phone": "+919840011223",
+      "passwordHash": "scrypt$45f4df29b67d4382bf2cb7edb3590593$dc854378dc92ba37d7947ccee735a1bd55d33e9c3272265316f33234cf1380b8bbf410085b2f1b9e438036de9fcf1dcccb74c1dbd2c0bf4eab29f9852e236584",
+      "termsAcceptedAt": "2026-10-31T16:21:19.701Z",
+      "createdAt": "2026-10-31T16:21:19.701Z",
+      "lastLoginAt": "2026-10-31T16:21:20.050Z",
+      "isVerified": true
+    },
+    {
+      "id": "usr_a5dc523eb4a124042b51",
+      "fullName": "Chithambaram",
+      "email": "cpalanis@gmail.com",
+      "phone": "+919965337307",
+      "passwordHash": "scrypt$7c5dc0374027d6bbfdafc9f694764059$8bf6e3f959e2c712b57b3237c417757ca34b47a901851b4112708740135d047dc12f4398fc7b18165184a5caf79ee73a8b9ae09c0bc117a77d92c1b355e40117",
+      "isVerified": false,
+      "verificationCodeHash": "7f1c0f8ff6fa3c6a849995ac4a1bb0534ebb7535d4ff1792cb2052a3996d5bd9",
+      "verificationCodeExpiresAt": 1793473659311,
+      "verificationAttempts": 0,
+      "verificationLastSentAt": 1793473059311,
+      "termsAcceptedAt": "2026-10-31T18:53:07.313Z",
+      "createdAt": "2026-10-31T18:53:07.313Z",
+      "lastLoginAt": "2026-10-31T18:53:07.313Z"
+    }
+  ],
+  "revokedSessionIds": [
+    "2fa84f1fea2e577d09ac32216944c005",
+    "c3cce5d03ac36a5f3471c3809c986677"
+  ]
+}

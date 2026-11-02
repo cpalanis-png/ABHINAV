@@ -1,0 +1,24 @@
+{
+  "+919876543210": {
+    "e164Phone": "+919876543210",
+    "userId": "usr_4f961312c2734ce27e27",
+    "purpose": "registration",
+    "otpHmacHash": "bd984839ecb245a9672d26f23d42f2eed17ccbfd016894541af802c597f4288a",
+    "expiresAt": 1793475230389,
+    "attempts": 0,
+    "maxAttempts": 5,
+    "lastSentAt": 1793474630389,
+    "createdAt": "2026-10-31T19:23:50.389Z"
+  },
+  "+919123456780": {
+    "e164Phone": "+919123456780",
+    "userId": "usr_acfba17b0ac79ec856ce",
+    "purpose": "registration",
+    "otpHmacHash": "ef4c7b14de4b33d743adcf40f325d0d5758d6d630100aeaecc41877b35af76eb",
+    "expiresAt": 1793475230460,
+    "attempts": 0,
+    "maxAttempts": 5,
+    "lastSentAt": 1793474630460,
+    "createdAt": "2026-10-31T19:23:50.460Z"
+  }
+}

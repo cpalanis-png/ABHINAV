@@ -1,0 +1,6 @@
+{
+  "name": "SMART SHIELD 5.0",
+  "description": "Your Safety. Your Health. Your Power. Universal AI, Women's Safety, GPS Truth Engine, Menstrual & Pregnancy Wellness, and Emergency Innovations.",
+  "requestFramePermissions": ["geolocation", "microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

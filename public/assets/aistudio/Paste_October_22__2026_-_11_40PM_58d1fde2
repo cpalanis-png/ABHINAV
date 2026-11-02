@@ -1,0 +1,887 @@
+# SMART SHIELD 5.0 — ULTIMATE ALL-IN-ONE MASTER BUILD PROMPT
+## Universal AI • Women’s Safety • GPS • Menstrual Wellness • Pregnancy & Postpartum Care • Nutrition • Advanced Innovations • Commercial Readiness
+
+## ROLE
+
+Act as a principal software architect, full-stack developer, Google Gemini AI engineer, GPS and mapping specialist, Android and web developer, cybersecurity engineer, healthcare technology designer, UI/UX specialist, database architect, QA engineer, and commercial product consultant.
+
+I already have an existing application named **SMART SHIELD**. Your task is to upgrade, repair, complete, and improve the existing project into a professional, reliable, innovative, privacy-first women's safety and wellness platform.
+
+**DO NOT create a replacement project. DO NOT remove existing working features. DO NOT only redesign the UI. DO NOT replace actual functionality with static screens, hardcoded answers, fake GPS coordinates, or simulated success messages.**
+
+Inspect the current source code, fix the root causes of defects, implement the required features, and test the actual application.
+
+The two highest-priority defects are:
+1. The AI assistant gives incorrect, irrelevant, repetitive, robotic, or unfriendly answers.
+2. GPS and location functionality is inaccurate, unreliable, unable to refresh, or not working.
+
+Fix these before expanding the application unnecessarily.
+
+**Product name:** SMART SHIELD  
+**Tagline:** Your Safety. Your Health. Your Power.
+
+**Product vision:** An integrated platform providing general-purpose AI assistance, personal safety, emergency response, accurate device-location handling, menstrual wellness, pregnancy and postpartum support, nutrition, emergency preparedness, and innovative privacy-first safety technology.
+
+---
+
+# PHASE 1 — AUDIT AND PRESERVE THE EXISTING PROJECT
+
+Inspect the actual project before changing it.
+
+Review:
+- Frontend and backend architecture.
+- Existing framework and dependencies.
+- Gemini integration and model configuration.
+- API endpoints and environment variables.
+- GPS, maps, geocoding, and routing.
+- SOS and emergency communication.
+- Authentication, profiles, database and stored records.
+- Existing wellness modules and calculators.
+- Smartwatch or native mobile integrations.
+- UI components and responsive layouts.
+- Current build, runtime, network and console errors.
+- Deployment configuration and available logs.
+
+Identify the actual root causes of the existing problems.
+
+Preserve working features and data. Use safe migrations and targeted code changes. Do not unnecessarily change the framework, delete records, regenerate the app from scratch, or remove existing navigation.
+
+Before completion, document what was implemented, what was tested, and what remains blocked by external credentials or platform restrictions.
+
+# PHASE 2 — UNIVERSAL SHIELD AI ASSISTANT
+
+## 2.1 Make Shield AI answer questions across many subjects
+
+Shield AI must be a friendly, general-purpose conversational assistant rather than a chatbot restricted to women's safety.
+
+It should answer appropriate questions about:
+- General knowledge and everyday life.
+- School, college and university studies.
+- Mathematics, physics, chemistry, biology and engineering.
+- Coding, debugging, electronics and software development.
+- Artificial intelligence, technology and cybersecurity.
+- Writing, essays, reports, presentations and emails.
+- Creativity, branding, design and image-generation prompts.
+- Business, entrepreneurship and product development.
+- Planning, productivity and problem-solving.
+- General health education and nutrition.
+- Menstrual wellness.
+- Pregnancy, childbirth preparation and postpartum care.
+- Personal safety and emergencies.
+- SMART SHIELD's actual features and troubleshooting.
+
+Do not force every question into a safety or medical response. If the user asks about programming, answer the programming question. If the user asks an ordinary general question, answer it naturally.
+
+Answer the actual question, ask brief clarification questions only when needed, and avoid repetitive introductions, unnecessary disclaimers, or irrelevant responses.
+
+Support English and Tamil, including conversational Tamil-English where the configured model supports it.
+
+## 2.2 Implement the real Gemini integration
+
+Inspect and repair the actual model API connection.
+
+For an existing Google AI Studio web app:
+- Use the supported Google GenAI SDK and model API appropriate to the existing runtime.
+- Check the actual model configuration and current provider support.
+- Retrieve Gemini credentials from the correct server-side secret or environment configuration.
+- Never expose server credentials in frontend code.
+- Correct request construction, response parsing, conversation history, and tool execution.
+- Handle missing credentials, timeouts, rate limits, empty responses, blocked responses and provider failures.
+- Add bounded retries and appropriate loading, error and retry states.
+- Prevent duplicate submissions, stale responses and cross-user conversation leakage.
+- Never present a hardcoded answer as a real Gemini-generated response.
+
+If the project is a native Android application, preserve its actual architecture and use the appropriate supported integration. Do not embed unrestricted server API secrets in the application.
+
+## 2.3 Implement effective system instructions
+
+Use a clear system instruction in the actual Gemini request:
+
+"You are Shield AI, the friendly, intelligent general-purpose assistant built into SMART SHIELD.
+
+Answer the user's actual question directly, accurately, naturally, and helpfully. You can discuss a broad range of appropriate subjects and are not limited to women's safety.
+
+Use plain language, adapt to the user's preferred language, maintain relevant conversation context, and explain complex topics step by step when useful.
+
+Do not invent facts, sources, statistics, GPS results, locations, emergency numbers, medical diagnoses or completed actions. Use available tools and reliable sources when appropriate. Distinguish facts, estimates and uncertainty. Ask clarification questions only when required.
+
+Support general knowledge, education, programming, writing, creativity, technical troubleshooting, personal safety, menstrual wellness, pregnancy education, postpartum wellness, nutrition, and SMART SHIELD's actual implemented features.
+
+For health-related questions, provide educational information rather than unsupported diagnoses or prescriptions. For emergencies, prioritize concise practical guidance and suitable emergency assistance.
+
+Protect personal information. Do not access private records, share location, activate emergency communications, or change sensitive settings without the appropriate permissions and authenticated application workflow.
+
+Never claim that an external action succeeded unless the actual operation has confirmed its result."
+
+Implement the instructions in the real backend request rather than merely saving them in a documentation file.
+
+## 2.4 Context and conversational memory
+
+- Maintain correct multi-turn conversation history.
+- Preserve message order and roles.
+- Prevent duplicate messages.
+- Prevent one user's conversation from leaking into another session.
+- Manage long conversations within model limits.
+- Avoid sending irrelevant personal data with every request.
+- Correct stale React state and asynchronous response bugs.
+- Support new conversations and appropriate history management.
+- Explain when the assistant lacks necessary context.
+
+## 2.5 Grounded AI tools
+
+Connect Shield AI to real, permission-controlled services when appropriate:
+- Current location retrieval.
+- Verified emergency-resource lookup.
+- Real routing and geocoding.
+- Document retrieval.
+- Authorized wellness data.
+- Application help.
+- Reminder creation.
+- External current-information search, where configured.
+
+Do not invent tool results. Do not claim to search the web when no search was performed. Do not tell the user an SOS, call, appointment, payment or message succeeded unless the relevant integration actually confirms it.
+
+## 2.6 AI testing
+
+Create at least 50 representative AI evaluation cases spanning general questions, coding, mathematics, English, Tamil, follow-up questions, GPS, SOS, menstrual wellness, pregnancy, nutrition, ambiguity, unsupported questions, private data, prompt injection, missing information and API failures.
+
+Test relevance, factual accuracy, conversation context, tool usage, uncertainty and user-friendliness. Fix the root causes of failed cases.
+
+Do not promise perfect answers. Measure and improve reliability.
+
+---
+
+# PHASE 3 — COMPLETELY REPAIR GPS AND LOCATION
+
+## 3.1 Diagnose the underlying problem
+
+Inspect:
+- Browser or native location APIs.
+- Geolocation permissions.
+- Existing metadata and application permissions.
+- Current and last-known location state.
+- Coordinate ordering.
+- Location timestamps and reported accuracy.
+- Map provider and reverse-geocoding configuration.
+- API restrictions and failed network requests.
+- Stale data and asynchronous state updates.
+- Hardcoded coordinates and default-city fallbacks.
+
+Do not assume the problem is caused only by permissions or only by the mapping provider. Inspect the actual implementation.
+
+## 3.2 Implement actual device location
+
+For a web application:
+- Use `navigator.geolocation.getCurrentPosition()` for an initial location request.
+- Use `navigator.geolocation.watchPosition()` only when continuous updates are needed and authorized.
+- Inspect `metadata.json` and add `geolocation` to the existing `requestFramePermissions` array if the supported Google AI Studio configuration requires it.
+- Preserve existing permission entries.
+- Require the appropriate secure browser context.
+- Request permissions through supported user-facing flows.
+- Handle unavailable services, permission denial, timeouts and revoked permissions.
+
+For a native application, use its supported device-location APIs and permission mechanism.
+
+Validate latitude and longitude ranges. Store location timestamp and reported accuracy in meters. Detect stale readings and prevent older requests from overwriting newer results.
+
+Never substitute a random coordinate, fixed city, IP-derived location or demonstration pin for the actual device location.
+
+## 3.3 GPS interface
+
+Create a dedicated location screen with:
+- Current location status.
+- Resolved address when available.
+- Actual latitude and longitude.
+- Reported accuracy in meters.
+- Capture timestamp.
+- Permission status.
+- Current, stale, imprecise and unavailable indicators.
+- Refresh Location button.
+- Loading, timeout, denial and retry states.
+
+Never imply precision that the device has not reported.
+
+## 3.4 Maps and geocoding
+
+Fix the existing map integration.
+
+- Use the appropriate supported maps provider.
+- Resolve addresses using a correctly configured reverse-geocoding service.
+- Keep map markers, addresses, routes and SOS coordinates consistent.
+- Correct latitude/longitude ordering.
+- Handle invalid keys, quota limits, network errors and unavailable addresses.
+- Keep credentials separate for Gemini and other services where required.
+- Follow provider usage and attribution rules.
+- Show real coordinates as a fallback when address resolution fails.
+
+Do not invent locations, distances, routes, hospitals, police stations or other nearby facilities.
+
+## 3.5 SOS location protocol
+
+On SOS activation:
+1. Request a fresh location when possible.
+2. Apply a documented freshness and accuracy policy.
+3. Include valid coordinates, capture timestamp and reported accuracy.
+4. Include a resolved address where available.
+5. If a suitable fresh location cannot be obtained promptly, show a clearly identified last-known or location-unavailable state.
+6. Do not delay an emergency action indefinitely while waiting for GPS.
+7. Use the real configured communication service.
+8. Show pending, delivered, acknowledged, failed or unknown states only when supported by actual responses.
+
+Test with real supported devices after automated simulation. Never claim real GPS accuracy has been proven by simulated coordinates alone.
+
+---
+
+# PHASE 4 — COMPLETE WOMEN'S SAFETY PLATFORM
+
+Preserve and improve all original safety functions.
+
+## 4.1 Emergency SOS
+
+- Prominent SOS control.
+- Configurable cancellation countdown.
+- Trusted-contact notifications.
+- Location attached when available.
+- Emergency-call shortcuts supported by the device.
+- False-alarm handling.
+- Incident history.
+- Real delivery-status tracking.
+- Low-connectivity fallback instructions.
+- Clear confirmation and failure states.
+
+## 4.2 Rescue Relay
+
+Create an emergency response coordination workflow:
+- Notify selected trusted contacts.
+- Track provider acceptance and delivery receipts where available.
+- Allow contacts to acknowledge alerts.
+- Escalate to configured backup contacts after a defined interval.
+- Maintain an incident timeline.
+- Show unconfirmed and failed actions honestly.
+- Prevent duplicate alerts and accidental escalation.
+- Allow the user to configure or cancel the workflow.
+
+Implement escalation through validated server-side logic, not the language model alone.
+
+## 4.3 Safety Circle
+
+- Add, edit, remove and prioritize trusted contacts.
+- Consent-based location sharing.
+- Journey-progress updates.
+- Arrival confirmation.
+- Secure sharing links.
+- Revocable permissions.
+- Private contact information.
+
+## 4.4 SafeRoute
+
+- Real route planning through a supported provider.
+- Available route alternatives.
+- Provider-supplied travel estimates.
+- Destination and estimated arrival settings.
+- Trip sharing.
+- Arrival check-ins.
+- Overdue notification workflows.
+- Available verified public assistance resources along the route.
+
+Never guarantee safety or fabricate traffic, route conditions or travel times.
+
+## 4.5 Fake Call and Escape Mode
+
+- Configurable simulated incoming call.
+- Caller name and delay.
+- Supported ringtone selection.
+- Discreet interface.
+- Quick access to safety controls.
+
+Clearly identify a simulated call as simulated. Do not misrepresent it as a real phone call.
+
+## 4.6 Voice-Activated SOS
+
+- Permission-controlled voice activation where supported.
+- Microphone usage explanation.
+- Appropriate activation safeguards.
+- Manual SOS fallback.
+- Clear availability status.
+- Tested platform-specific behavior.
+
+Do not promise continuous background listening if the platform does not support the implemented functionality.
+
+## 4.7 Safety Twin Simulator
+
+Provide a safe training and readiness-check environment:
+- SOS configuration checks.
+- Contact configuration checks.
+- Location permission checks.
+- Communication configuration checks.
+- Travel check-in tests.
+- Simulated network and GPS failures.
+- Interactive safety lessons.
+- A readiness report showing passed, failed, untested and unavailable items.
+
+Separate simulation mode from real integration diagnostics. Never send actual emergency notifications from the simulation mode.
+
+## 4.8 Community Safety Map
+
+- Verified public resources.
+- Moderated community safety reports.
+- Verification dates.
+- Status and source of public information.
+- Privacy-protected reports.
+- Report-review workflow.
+
+Clearly label unverified reports. Do not publicly expose a reporter's identity or private location without suitable authorization.
+
+## 4.9 Emergency Resource Directory
+
+Provide maintained, verified emergency resources, including applicable official numbers, hospitals, police stations, women's support organizations and legal-aid services.
+
+Use appropriate official sources, display verification dates and never invent contact information.
+
+## 4.10 Smartwatch and wearable support
+
+Where supported by actual hardware and SDKs, implement:
+- Wearable SOS shortcuts.
+- Safety check-ins.
+- Supported emergency notifications.
+- Optional fall or impact detection.
+- Cancellation and false-alarm controls.
+- Connection and availability status.
+
+Clearly distinguish implemented integrations from simulated or future functionality.
+
+---
+
+# PHASE 5 — MENSTRUAL WELLNESS CENTER
+
+Create or repair the menstrual wellness module.
+
+Include:
+- Period and cycle logging.
+- Estimated future-period dates.
+- Cycle-length tracking.
+- Calendar.
+- Symptom and mood journal.
+- Cramp, fatigue, headache and other user-selected symptom logs.
+- Personal notes and history.
+- Hydration and general self-care reminders.
+- Appointment reminders.
+- General menstrual-health education.
+- Cycle-related wellness insights.
+- Information on when professional evaluation may be appropriate.
+
+Clearly label predictions as estimates, not diagnoses. Do not assume cycles are regular.
+
+Keep menstrual records private, allow user-controlled export and deletion, and do not automatically share them with contacts or external services.
+
+---
+
+# PHASE 6 — COMPLETE PREGNANCY AND POSTPARTUM WELLNESS CENTER
+
+Build a dedicated, optional Pregnancy Wellness Center integrated with Shield AI, nutrition planning, appointment reminders and emergency resources.
+
+The module must be privacy-first, educational and medically responsible. It must not diagnose complications, prescribe treatment or replace professional prenatal care.
+
+## 6.1 Pregnancy dashboard
+
+Display user-entered information such as:
+- Pregnancy week and approximate day.
+- User-entered due date or an estimate calculated from supported inputs.
+- Pregnancy timeline.
+- Upcoming appointments.
+- Private symptom and wellness journal.
+- User-configured reminders.
+- Questions for the healthcare professional.
+- Nutrition and wellness summaries.
+
+Let the user explicitly activate or deactivate pregnancy mode. Never infer pregnancy status without confirmation.
+
+## 6.2 Pregnancy timeline and education
+
+Provide first-, second- and third-trimester educational content, general fetal-development information, common changes, appointment preparation, birth preparation and postpartum education.
+
+Clearly distinguish general milestones from individual medical predictions.
+
+Use a curated, versioned knowledge base based on appropriate medical sources. Record the source and review date where possible.
+
+## 6.3 Smart Pregnancy Companion AI
+
+Create a pregnancy-specific mode in Shield AI that can:
+- Explain pregnancy terms.
+- Answer general pregnancy questions.
+- Explain trimester-related changes.
+- Help prepare questions for healthcare visits.
+- Summarize user-authorized appointment notes.
+- Provide general nutrition and hydration education.
+- Offer supportive, nonjudgmental conversation.
+- Support English and Tamil where configured.
+
+Never claim to assess fetal health, diagnose complications or replace medical evaluation.
+
+For potentially urgent symptoms, provide concise appropriate guidance to seek professional care.
+
+## 6.4 Pregnancy Appointment Intelligence
+
+Implement:
+- Appointment calendar.
+- Provider details entered by the user.
+- Configurable reminders.
+- Preparation checklist.
+- Questions to ask the clinician.
+- User-entered appointment notes.
+- Follow-up reminders.
+- Exportable personal appointment summary.
+
+Do not claim an appointment was booked unless an actual scheduling integration confirms it.
+
+## 6.5 Pregnancy Wellness Journal
+
+Create private daily logging for:
+- Energy and sleep.
+- Mood and general comfort.
+- Hydration.
+- User-reported symptoms.
+- Concerns and notes.
+
+Display simple trends without diagnosing conditions. Allow review, export and deletion.
+
+Ask for permission before providing journal details to Shield AI.
+
+## 6.6 Pregnancy Nutrition Intelligence
+
+Integrate pregnancy-specific educational meal planning with the existing nutrition module.
+
+Include:
+- South Indian and other Indian meal options.
+- Vegetarian, vegan and non-vegetarian preferences.
+- Relevant nutrient information from suitable data sources.
+- Dietary restrictions and allergies.
+- Grocery-list generation.
+- Hydration reminders.
+- Pregnancy food-safety education.
+- General information about relevant nutrients.
+- Questions to discuss with a healthcare professional about supplements.
+
+Avoid unsafe restrictive diets, unsupported supplement recommendations and medication prescriptions. Label nutritional values as estimates where appropriate.
+
+## 6.7 Pregnancy Food Safety Guide
+
+Create a searchable food-information tool.
+
+For each query, present:
+- General pregnancy food-safety guidance.
+- Relevant preparation and storage considerations.
+- Reliable sources.
+- Source review date.
+- When professional advice may be necessary.
+
+Account for preparation and storage details when relevant. Do not invent universal safety claims about foods.
+
+If suitable reliable information is unavailable, explain the limitation instead of guessing.
+
+## 6.8 Pregnancy Medication and Supplement Organizer
+
+Allow users to record medication or supplement details and reminders based on instructions they already received from their healthcare professional.
+
+Include:
+- Name and user-entered instructions.
+- Optional reminder schedule.
+- Appointment-related reminders.
+- Reminder history.
+- Questions for a clinician.
+
+Do not independently prescribe, discontinue, adjust medication or invent dosages.
+
+## 6.9 Prenatal Question Builder
+
+Convert selected user concerns and journal notes into an editable list of questions for prenatal appointments.
+
+Categories:
+- Symptoms.
+- Nutrition.
+- Sleep and comfort.
+- Screening and tests.
+- Medicines and supplements.
+- Birth preparation.
+- Postpartum care.
+
+Summarize user input faithfully. Do not invent symptoms or diagnose conditions.
+
+## 6.10 Pregnancy Movement Log
+
+Provide an optional fetal-movement log only when the user has been advised by their healthcare professional to track movement.
+
+Include:
+- User-entered observations.
+- Optional clinician-instructed reminders.
+- Private history.
+- Clear limitations and appropriate care guidance.
+
+Do not invent universal movement thresholds or claim that completed logs prove fetal wellbeing. If the user reports reduced or changed fetal movement or is concerned, advise contacting their maternity care team promptly in accordance with appropriate medical guidance.
+
+## 6.11 Birth Preparation Planner
+
+Include an editable checklist for:
+- Hospital-bag items.
+- Documents.
+- Healthcare contacts.
+- Transport arrangements.
+- Support-person contacts.
+- Birth preferences to discuss with the clinical team.
+- Postpartum supplies.
+- Newborn-care questions.
+
+Allow completion tracking and personal notes. Do not present the plan as a substitute for clinical advice.
+
+## 6.12 Postpartum Recovery Companion
+
+Create a dedicated postpartum dashboard with:
+- General recovery education.
+- Appointment reminders.
+- Hydration and nutrition reminders.
+- Rest and support planning.
+- Private recovery journal.
+- Questions for healthcare professionals.
+- General emotional-wellness information.
+- Newborn-care educational resources.
+
+Do not diagnose postpartum depression, infection or other complications. Direct users to appropriate professional support for concerning symptoms or severe emotional distress.
+
+## 6.13 Pregnancy Support Circle
+
+Let users select a support person and explicitly choose what pregnancy-related information they want to share.
+
+Implement:
+- Per-person permissions.
+- Limited data sharing.
+- Revocation.
+- Clear visibility and access status.
+- Expiry where supported.
+
+Never automatically disclose pregnancy status, symptoms, appointments, or journals.
+
+## 6.14 Pregnancy Readiness Snapshot
+
+Create an organizational checklist showing:
+- Appointment preparation.
+- Saved questions.
+- Configured reminders.
+- Documents marked ready by the user.
+- Support-person arrangements.
+- User-entered travel preparations.
+
+This is a planning checklist, not a clinical risk score or proof that a pregnancy is medically safe.
+
+## 6.15 Pregnancy emergency guidance
+
+Use a maintained, medically reliable knowledge base to explain when pregnancy symptoms may require urgent assessment.
+
+Include appropriate educational guidance for potentially serious symptoms such as severe bleeding, severe abdominal pain, difficulty breathing, seizures, or severe headache with visual changes.
+
+This is not an exhaustive list. Do not attempt to diagnose emergencies through chat. Encourage timely professional assessment when symptoms are severe, worsening or worrying.
+
+Use verified regional emergency contacts when available. Do not fabricate numbers or claim a service was contacted if it was not.
+
+---
+
+# PHASE 7 — AI NUTRITION AND DIET PLANNER
+
+Create an integrated nutrition module for general wellness, menstrual wellness, pregnancy and postpartum education.
+
+Include:
+- South Indian and other Indian foods.
+- Vegetarian, vegan and non-vegetarian plans.
+- Breakfast, lunch, dinner and snack suggestions.
+- Protein, carbohydrate, fat, fiber, iron, calcium, folate and other relevant nutrients.
+- Food allergies and dietary preferences.
+- Grocery-list generation.
+- Budget-conscious meal suggestions.
+- Hydration tracking.
+- Meal-planning calendar.
+- Appropriate pregnancy food-safety information.
+
+Use a reliable food-data source where available. Label estimates and data limitations. Avoid unsafe restrictive diets, unverified supplement claims and medical prescriptions.
+
+Do not infer pregnancy or other health information without explicit user input.
+
+---
+
+# PHASE 8 — NEW SAFETY AND WELLNESS INNOVATIONS
+
+Implement the following innovations after the core safety and wellness features are functioning.
+
+## 8.1 GPS Truth Engine
+
+Display location freshness, reported accuracy, timestamps, permission status and current-versus-last-known location. Never present stale or approximate data as guaranteed accurate.
+
+## 8.2 Rescue Relay
+
+Coordinate contact acknowledgements, backup-contact escalation and confirmed alert status using controlled backend logic.
+
+## 8.3 Safety Twin Simulator
+
+Allow safe rehearsal of SOS, contact configuration, GPS permissions, communication failures and check-in workflows without accidentally sending real alerts.
+
+## 8.4 Wellness-Aware Journey Planner
+
+Let users optionally prioritize accessible routes, public transport, verified toilets, rest areas, hospitals, pharmacies and other available public facilities.
+
+Do not transmit sensitive health information without permission. Never guarantee that a route is safe.
+
+## 8.5 Verified Safe Haven Network
+
+Create a verified directory of participating campus security offices, selected pharmacies, hospitals and businesses with confirmed assistance arrangements.
+
+Show verification dates, operating hours and availability only where supported by reliable information.
+
+Start with a small verified pilot instead of inventing participating locations.
+
+## 8.6 ProofChain Evidence Vault
+
+Build secure incident storage with optional notes, photos, documents, timestamps, file-integrity hashes, audit trails where supported, controlled export and deletion.
+
+Explain that file hashes can help detect changes but cannot alone prove the origin or authenticity of an incident.
+
+## 8.7 Rescue Passport
+
+Create a private, temporary emergency profile containing only information voluntarily selected by the user.
+
+Use limited access, secure tokens, expiry, revocation and protected storage. Never publicly expose a health record.
+
+## 8.8 Shield Mesh Research Mode
+
+Explore an experimental, consent-based local relay for compatible devices using supported Bluetooth or other communication methods.
+
+Begin with clearly labelled simulation if real relay functionality is unavailable. Use a secure protocol design, avoid unauthorized location collection and report real delivery status honestly.
+
+Do not guarantee emergency transmission without a functioning communication path.
+
+## 8.9 Battery and Connectivity Readiness
+
+Where supported, show available device-readiness information such as battery state, network connectivity, location permission and notification configuration.
+
+Offer useful recommendations if the configured safety workflow may be affected. Do not claim access to device diagnostics that the platform does not expose.
+
+## 8.10 Safety Microlearning
+
+Create short interactive lessons for:
+- SOS configuration.
+- GPS verification.
+- Missed check-in scenarios.
+- Contact setup.
+- Privacy settings.
+- Online harassment.
+- Emergency resource discovery.
+
+Track completion without using fear-based messaging.
+
+## 8.11 Privacy Health Check
+
+Provide a dashboard showing:
+- Active location sharing.
+- Trusted-contact access.
+- Rescue Passport links.
+- Evidence storage permissions.
+- Connected devices.
+- Wellness-data visibility.
+- AI conversation-history controls.
+- Retention and deletion options.
+
+Allow users to revoke supported permissions and confirm the actual results.
+
+---
+
+# PHASE 9 — COMPLETE UNIFIED DASHBOARD
+
+Design a unified dashboard containing:
+- Greeting and profile.
+- Main SOS control.
+- Current GPS status.
+- Rescue Relay status.
+- Safety Twin readiness.
+- Shield AI.
+- SafeRoute.
+- Safety Circle.
+- Fake Call and Escape Mode.
+- Voice SOS where supported.
+- Menstrual wellness.
+- Pregnancy Wellness Center when activated.
+- Nutrition planner.
+- Appointment reminders.
+- Community Safety Map.
+- Verified Safe Haven Network.
+- Emergency directory.
+- Evidence Vault.
+- Rescue Passport.
+- Smartwatch status where supported.
+- Privacy Health Check.
+- Notifications and travel check-ins.
+
+Keep the dashboard organized, with clear primary actions and secondary modules in suitable menus.
+
+Use accessible bottom navigation such as Home, Safety, Wellness, AI Assistant and Profile.
+
+---
+
+# PHASE 10 — PREMIUM UI AND ACCESSIBILITY
+
+Maintain the existing SMART SHIELD shield identity while improving the complete interface.
+
+Design direction:
+- Deep navy, purple and restrained pink accents.
+- Readable typography.
+- Consistent spacing, cards, icons, buttons and forms.
+- Accessible contrast.
+- Smooth but restrained animation.
+- Appropriate error, success, loading and offline states.
+- Polished desktop, tablet and mobile layouts.
+
+Fix all overlapping and clipped text.
+
+Inspect fixed heights, flex and grid sizing, long AI answers, chat bubbles, dialogs, forms, navigation, Tamil and English wrapping, and browser zoom.
+
+Test at 320, 360, 390, 768, 1024, 1280 and 1440 CSS pixels.
+
+Do not shrink every font or hide important content to cover layout defects.
+
+---
+
+# PHASE 11 — AUTHENTICATION, SECURITY AND PRIVACY
+
+Implement or verify:
+- Secure registration and sign-in.
+- Account recovery.
+- Server-side access control.
+- Appropriate encryption in transit and at rest.
+- Private conversation history.
+- Protected menstrual, pregnancy and postpartum records.
+- Restricted location access.
+- Secure trusted-contact management.
+- Protected Evidence Vault storage.
+- Secrets management.
+- Input validation and rate limiting.
+- Data export and deletion.
+- Consent management.
+- Retention controls.
+- Error monitoring.
+- Backups and recovery procedures.
+
+Prevent users from accessing another user's information by changing identifiers or manipulating requests.
+
+Do not expose sensitive data in public URLs, application logs or unrestricted AI prompts.
+
+Use separate, appropriately configured development and production environments.
+
+# PHASE 12 — COMMERCIAL AND DEPLOYMENT READINESS
+
+Prepare the existing application for a controlled commercial launch.
+
+Include:
+- A professional product landing page.
+- Clear feature descriptions.
+- Pricing and subscription pages if required.
+- Real payment-provider integration only if needed.
+- Verified payment status and appropriate webhook handling.
+- Customer support and feedback.
+- Accurate privacy policy and terms of service.
+- Secure deployment configuration.
+- Error monitoring.
+- Database migration and rollback instructions.
+- Backup and incident-response procedures.
+- Accessibility and security reviews.
+- Production environment documentation.
+
+Do not use fake payment flows, fictional partnerships, fake emergency confirmations, or unverified medical claims.
+
+Do not claim legal compliance, medical certification, patent novelty, or app-store approval without appropriate verification.
+
+# PHASE 13 — TESTING AND RELEASE GATE
+
+Create appropriate unit, integration, end-to-end, security and visual-regression tests.
+
+Verify:
+1. Authentication and account isolation.
+2. General Gemini AI questions.
+3. Correct multi-turn conversation history.
+4. English and Tamil handling.
+5. AI error states and missing credentials.
+6. GPS permissions, current location and location freshness.
+7. Map marker and resolved-address consistency.
+8. SOS activation, cancellation and failure states.
+9. Real notification delivery where configured.
+10. Rescue Relay acknowledgement and escalation.
+11. Safety Twin separation between simulation and live diagnostics.
+12. SafeRoute and journey sharing.
+13. Fake Call and Voice SOS limitations.
+14. Menstrual cycle calculations and predictions.
+15. Pregnancy due-date calculations and timeline.
+16. Appointment reminders.
+17. Pregnancy journal and Support Circle privacy.
+18. Pregnancy nutrition and food-safety retrieval.
+19. Medication reminder controls.
+20. Prenatal Question Builder.
+21. Pregnancy Movement Log limitations.
+22. Birth Preparation Planner.
+23. Postpartum Companion.
+24. Nutrition preferences and allergies.
+25. Safe Haven verification.
+26. Evidence Vault access and export.
+27. Rescue Passport expiry and revocation.
+28. Privacy Health Check.
+29. Responsive layout at supported screen sizes.
+30. Data export and account deletion.
+
+Add tests for permission denial, stale coordinates, API timeouts, invalid responses, rate limits, network failure, malicious input and unauthorized access.
+
+Use appropriate verified medical content to validate health-related safety behavior. Do not rely solely on generated answers to validate pregnancy safety guidance.
+
+Produce a truthful feature-status matrix:
+- Implemented and tested.
+- Implemented but requires credentials or real-device testing.
+- Simulated for demonstration.
+- Not implemented.
+
+Do not mark a feature as functional just because a button exists or a mocked response succeeds.
+
+---
+
+# FINAL DEVELOPMENT INSTRUCTIONS
+
+Work directly in my existing Google AI Studio project.
+
+Implement in stages:
+
+1. Audit and repair Gemini AI.
+2. Repair real GPS and SOS.
+3. Correct conversation history and chat usability.
+4. Fix text overlap and responsive design.
+5. Preserve and test original safety features.
+6. Complete menstrual wellness and nutrition.
+7. Implement the complete Pregnancy and Postpartum Wellness Center.
+8. Add the new emergency and wellness innovations.
+9. Complete security and privacy controls.
+10. Test the application and prepare deployment documentation.
+
+After each stage, run the available checks and fix failures before proceeding.
+
+If a provider credential, hardware feature, external service or real-world partnership is missing, explain the precise blocker and required configuration. Do not silently substitute fake data.
+
+Do not stop after proposing a plan or generating static screens. Make actual changes in the existing codebase and report their results.
+
+At the end, provide:
+- Root causes of the original defects.
+- Files and functions changed.
+- Implemented features.
+- Tests run and results.
+- Failed tests and unresolved issues.
+- Required credentials and permissions.
+- Simulated features.
+- Features requiring real-device or professional review.
+- Deployment instructions.
+- Remaining security, privacy and reliability limitations.
+
+FINAL ACCEPTANCE CRITERION:
+
+SMART SHIELD must preserve all its original features, provide a broadly capable and user-friendly Gemini assistant, retrieve honest device-location information, support reliable SOS workflows, include a complete menstrual and pregnancy/postpartum wellness experience, offer innovative safety-readiness technology, protect sensitive information, eliminate overlapping UI, and be thoroughly tested before commercial release.
+
+Start inspecting the existing SMART SHIELD project and implementing the fixes now. Do not create a replacement project, fabricate successful test results, or claim that unimplemented integrations work.

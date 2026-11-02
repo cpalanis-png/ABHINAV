@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smartshield.womensafety">
+
+    <!-- =================================================================== -->
+    <!-- SMART SHIELD WOMEN SAFETY — REQUIRED PERMISSIONS                    -->
+    <!-- Declared directly under manifest root before application block      -->
+    <!-- =================================================================== -->
+
+    <!-- Network connectivity for loading the HTTPS web app & AI Assistant -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Location permissions for GPS Truth Engine, Geofencing & SOS Alerts -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Camera & Microphone permissions for SOS Evidence Vault & Voice AI/SOS -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- SMS permission for instant SOS emergency alert dispatch to saved contacts -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!-- Hardware features marked optional (required="false") so devices without
+         dedicated GPS, telephony, or rear camera are not blocked from installing the app
+         and can still use audio SOS, helplines, and AI assistant features -->
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Smart Shield"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="false">
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
