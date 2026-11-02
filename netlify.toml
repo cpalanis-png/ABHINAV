@@ -2,6 +2,12 @@
   command = "npm run build:static"
   publish = "dist"
 
+# Allow the browser to grant location (plus mic/camera used by voice & media features)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "geolocation=(self), microphone=(self), camera=(self)"
+
 # Single-page app: serve index.html for client-side routes
 [[redirects]]
   from = "/*"
