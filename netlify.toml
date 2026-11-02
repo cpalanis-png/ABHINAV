@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build:static"
+  publish = "dist"
+
+# Single-page app: serve index.html for client-side routes
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
